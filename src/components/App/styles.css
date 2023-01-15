@@ -1,0 +1,13 @@
+body {
+  background-color: #f0c5b6;
+}
+
+.app {
+  width: 250px;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.app img {
+  max-width: 150px;
+}

@@ -1,0 +1,27 @@
+.currencies {
+  &-container {
+    overflow: scroll;
+    color: #bb5432;
+    height: 150px;
+    padding-top: 5px;
+    background-color: #fff;
+  }
+  &-title {
+    color: #fff;
+    font-weight: 700;
+  }
+}
+.currency {
+  height: 25px;
+  font-weight: 300;
+  border-top: #bb5432 solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5px;
+}
+.currency:hover{
+  background-color: #e0a793;
+  color: #fff;
+  transition: ease-out 0.5s;
+}

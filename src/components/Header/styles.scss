@@ -1,0 +1,30 @@
+
+.header{
+  &-container {
+    background-color: #bc5435;
+    height: 100px;
+    padding: 25px;
+  }
+  &-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+  }
+}
+
+.form {
+  &-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+    font-weight: 300;
+    margin: 10px;
+  }
+  &-text{
+    margin: 0px 5px;
+  }
+  &-input {
+    width: 50px;
+  }
+}
