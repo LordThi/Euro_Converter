@@ -13,5 +13,6 @@ Je souhaiterai rendre ce convertisseur fonctionnel. Pour cela, je vais faire en 
 ### Étapes à valider
 
 - Pouvoir récupurer l'entrée utilisateur
-- s'en servir pour afficher dynamiquement un résultat en fonction des données fixes mises à disposition dans le fichier src/data/currencies.js
+- S'en servir pour afficher dynamiquement un résultat en fonction des données fixes mises à disposition dans le fichier src/data/currencies.js
 - Fetcher une API dédiée aux taux de conversions actuel.
+- Déployer le projet.

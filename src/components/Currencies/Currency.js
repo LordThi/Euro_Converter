@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Currency = ({
-  name,
-}) => (
+const Currency = ({ name }) => (
   <li className="currency">
     { name }
   </li>

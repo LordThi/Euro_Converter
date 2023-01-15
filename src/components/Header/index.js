@@ -5,7 +5,7 @@ import Form from './Form';
 const Header = () => (
   <div className='header-container'>
     <Title className='header-title' content='Converter'/>
-    <Form/>
+    <div display='none'></div>
   </div>
 );
 

@@ -1,14 +1,19 @@
 .currencies {
   &-container {
-    overflow: scroll;
+    overflow: auto;
     color: #bb5432;
     height: 150px;
     padding-top: 5px;
     background-color: #fff;
   }
   &-title {
-    color: #fff;
+    background-color: #fff;
     font-weight: 700;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
 }
 .currency {
