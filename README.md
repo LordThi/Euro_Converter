@@ -1,47 +1,17 @@
 # Convertisseur
 
-## Objectif
+## Objectif du projet étudiant
 
-Réaliser ce projet
+Réaliser ce projet React depuis zéro. Il s'agit d'un convertisseur euro/autre devise. Le projet ne demande pas d'entrées d'utilisateur et les taux de conversions sont fixes et stockées dans un  fichier dédié.
 
 ![](resultat.gif)
 
-## Instructions
+## Objectif personnel
 
-- Commencer par la structure fondamentale (les blocs principaux)
-- Créer les composants
-- Un peu de style
-- Identifier les données à transmettre
-- Placer des props
-- Dynamiser avec `src/data/currencies.js`
+Je souhaiterai rendre ce convertisseur fonctionnel. Pour cela, je vais faire en sorte de proposer à un utilisateur d'entrer la somme en euros qu'il souhaiterait convertir, lui permettre de sélectionner une devise et afficher dynamiquement le résultat en fonction du taux actuel.
 
-## Styles
+### Étapes à valider
 
-### Font
-
-[Spartan](https://fonts.google.com/?query=spartan)
-- `300` : textes
-- `500` : liste de devises
-- `700` : titre et résultat
-
-### Couleurs
-
-- Principale `#bb5432`
-- Alternative `#f1c5b6`
-- Claire `#fff`
-
-### Transitions
-
-- Rapide : `0.2s`
-- Lente : `1s`
-
-
-## Whaaat ?
-
-- https://fr.reactjs.org/docs/components-and-props.html#composing-components
-- https://fr.reactjs.org/docs/introducing-jsx.html#embedding-expressions-in-jsx
-- https://developer.mozilla.org/fr/docs/Web/CSS/overflow
-- https://developer.mozilla.org/fr/docs/Web/CSS/transition
-# Euro_Converter
-# Euro_Converter
-# Euro_Converter
+- Pouvoir récupurer l'entrée utilisateur
+- s'en servir pour afficher dynamiquement un résultat en fonction des données fixes mises à disposition dans le fichier src/data/currencies.js
+- Fetcher une API dédiée aux taux de conversions actuel.
